@@ -15,7 +15,7 @@ def welcome_assignment_answers(question):
              "Is a hashed message supposed to be un-hashed? - Yes/No":"No",
              "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":"1df265f23c2efc74fdba5bafc666cd412abad4a0d8efedf77f8d37e01055c384",
              "Is MD5 a secured hashing algorithm? - Yes/No":"No",
-             "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":4,
+             "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":5,
              "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":3}
         if question in qas.keys():
             return qas.get(question)
